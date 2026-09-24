@@ -1,0 +1,27 @@
+# ─── House Price Prediction — Python Requirements ────────────────────────────
+# Install with:  pip install -r requirements.txt
+#
+# Covers:
+#   train_model.py                 — ML pipeline: data loading, training, saving
+#   app.py                         — Flask REST API backend
+#   house_price_prediction_code.py — single-file Streamlit app (frontend + predict)
+#
+# Python >= 3.9 recommended
+
+# ─── [1] Data & ML ───────────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+joblib>=1.3.0
+
+# ─── [2] Backend (Flask REST API) ────────────────────────────────────────────
+flask>=2.3.0
+
+# ─── [3] Frontend (Streamlit) ────────────────────────────────────────────────
+streamlit>=1.32.0
+plotly>=5.18.0
+requests>=2.31.0
+
+# ─── [4] Utilities ───────────────────────────────────────────────────────────
+packaging>=23.0
